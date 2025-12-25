@@ -39,10 +39,10 @@ pip install comtypes
     ```bash
     python pptx2pdf.py
     ```
-2.  **Select Folder**:
-    *   A window titled "PPTX to PDF Converter" will appear.
-    *   Click the **Select Folder** button.
-    *   Navigate to and choose the folder containing your PowerPoint files.
+2.  **Select Folders**:
+    *   **Input**: Click **Select Input Folder** and choose the directory with your PPTX files.
+    *   **Output (Optional)**: Click **Select Output Folder** to choose where to save the PDFs. If skipped, PDFs will be saved in the input folder.
+    *   Click **Convert to PDF** to start the process.
 3.  **Conversion**:
     *   The script will begin processing the files. You might see PowerPoint open/close briefly or run in the background.
     *   A popup message will verify when the batch conversion is complete.
