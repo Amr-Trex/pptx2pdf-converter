@@ -1,4 +1,4 @@
-# PPTX to PDF Converter
+<h1 style="display: flex; align-items: center; gap: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); padding: 10px; border-radius: 5px;"><img src="app_icon.ico" alt="PPTX to PDF Converter" width="64" height="64"> PPTX to PDF Converter</h1>
 
 A simple Python utility with a Graphical User Interface (GUI) to batch convert PowerPoint presentations (`.pptx`, `.ppt`) into PDF format using the Microsoft PowerPoint COM interface.
 
@@ -34,6 +34,11 @@ pip install comtypes
 *(Note: `tkinter` is included with standard Python installations).*
 
 ## Usage
+### Using the Executable ***`MOST-RECOMMENDED`***
+If you are using the standalone version, simply double-click `pptx2pdf.exe` from the `dist` folder to launch the application. This version does not require Python or any dependencies to be installed on your system.
+
+### Running from Source
+
 
 1.  **Run the script**:
     ```bash
